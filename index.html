@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apiário de emoções não mapeadas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <div class="logo">
+                <h1 class="glitch-effect" data-text="VAREKAI">VAREKAI</h1>
+                <p>Experience</p>
+            </div>
+        </header>
+
+        <!-- MAIN CONTENT -->
+        <main>
+            <div class="player-container">
+                <div class="player">
+                    <div class="album-art">
+                        <img src="assets/images/capa-album.jpg" alt="Lachesism">
+                    </div>
+                    <div class="player-controls">
+                        <h2>Lachesism</h2>
+                        <p>O desejo de ser atingido por um furacão</p>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="controls">
+                            <button class="control-btn" id="prev-btn">⏮</button>
+                            <button class="control-btn" id="play-btn">▶</button>
+                            <button class="control-btn" id="next-btn">⏭</button>
+                        </div>
+                        <audio id="audio-player" src="assets/music/lachesism.mp3"></audio>
+                    </div>
+                </div>
+            </div>
+
+            <button id="crisis-btn" class="glitch-btn">CRISE EXISTENCIAL</button>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>© 2025 varekai - sujo de pólen</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
